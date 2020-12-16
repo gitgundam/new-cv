@@ -1,0 +1,109 @@
+*{
+  box-sizing: border-box;
+  color: #333;
+}
+
+img{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: -80px;
+  top: 0;
+}
+
+
+body{
+  margin: 10px auto;
+  max-width: 900px;
+}
+h1{
+  font-size: 28px;
+  margin: 0;
+  border-bottom: 3px solid #3987cb;
+  color: #3987cb;
+}
+b{
+  color:#333;
+}
+h2{
+  margin: 10px 0;
+}
+strong{
+  color: #f60;
+}
+
+a{
+  color: #3782c9;
+}
+p{
+  color: #666;
+}
+.info{
+  position: relative;
+}
+.info h1{
+  border: none;
+}
+.info p{
+  font-size: 13px;
+  line-height: 1;
+}
+.info .name{
+  width: 118px;
+  height: 158px;
+  position: absolute;
+  top: 0;
+  right: 30px;
+}
+
+.skill li{
+  color: #666;
+}
+
+.projets ol{
+  margin: 10px 0;
+  padding: 0 10px;
+  list-style: none;
+}
+
+.projets li{
+  font-size: 15px;
+}
+.projets li p{
+  margin: 5px 0;
+  width: 95%;
+}
+.projets li .title{
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+
+.title a{
+  border: 1px solid;
+  margin-left: 30px;
+  padding:0 5px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.title a:hover{
+  color: #f60;
+}
+
+.openSource ol{
+  list-style: none;
+  margin: 0;
+  padding: 0 10px;
+}
+.openSource h3{
+  margin: 5px 0;
+}
+.openSource p{
+  margin: 5px 0;
+}
+.jobs p{
+  text-indent: 2em;
+}
